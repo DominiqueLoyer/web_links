@@ -1,0 +1,17 @@
+<link rel="import" href="../../../packages/polymer/polymer.html">
+
+<polymer-element name="link-list">
+  <template>
+    <h2>Web Links</h2>
+    <ul>
+      <template repeat="{{link in links}}">
+        <li>
+          <a _href="{{link.url.toString()}}">
+            {{link.name}}
+          </a>
+        </li>
+      </template>
+    </ul>
+  </template>
+  <script type="application/dart" src="link_list.dart"></script>
+</polymer-element>
