@@ -3,7 +3,10 @@
 https://www.dartlang.org/polymer/
 https://github.com/dartlangfr/risk-polymer-codelab
 https://github.com/kevmoo/io_2014_contacts_demo
+https://github.com/dart-lang/polymer-dart-patterns
+https://github.com/dart-lang/dart-tutorials-samples
 https://pub.dartlang.org/search?q=polymer
+http://www.dartdocs.org/documentation/polymer/0.15.5+2/index.html
 http://www.dartdocs.org/documentation/observe/0.12.2+1/index.html#observe
 
 https://pub.dartlang.org/packages/monomer
