@@ -7,20 +7,6 @@ class Link implements Comparable {
   Link(this.name, String link) {
     url = Uri.parse(link);
   }
-  
-  /**
-   * Compares two links based on their names.
-   * If the result is less than 0 then the first link is less than the second,
-   * if it is equal to 0 they are equal and
-   * if the result is greater than 0 then the first is greater than the second.
-   */
-  int compareTo(Link link) {
-    if (name != null && link.name != null) {
-      return name.compareTo(link.name);
-    } else {
-      throw new Exception('a link name must be present');
-    }
-  }
 
   Link.fromJson(Map<String, Object> linkMap) {
     name = linkMap['name'];
@@ -36,6 +22,20 @@ class Link implements Comparable {
 
   String toString() {
     return '{name: ${name}, url: ${url.toString()}}';
+  }
+  
+  /**
+   * Compares two links based on their names.
+   * If the result is less than 0 then the first link is less than the second,
+   * if it is equal to 0 they are equal and
+   * if the result is greater than 0 then the first is greater than the second.
+   */
+  int compareTo(Link link) {
+    if (name != null && link.name != null) {
+      return name.compareTo(link.name);
+    } else {
+      throw new Exception('a link name must be present');
+    }
   }
 }
 
@@ -59,7 +59,7 @@ class Links {
     if (newLink == null) {
       throw new Exception('a new link must be present');
     }
-    for (Link link in this) {
+    for (Link link in _list) {
       if (newLink.name == link.name) return false;
     }
     _list.add(newLink);

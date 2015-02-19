@@ -1,46 +1,28 @@
-#webui links
+#Polymer.dart Links
 
-https://groups.google.com/a/dartlang.org/forum/?fromgroups#!forum/web-ui
+https://www.dartlang.org/polymer/
+https://github.com/dartlangfr/risk-polymer-codelab
+https://github.com/kevmoo/io_2014_contacts_demo
+https://pub.dartlang.org/search?q=polymer
+http://www.dartdocs.org/documentation/observe/0.12.2+1/index.html#observe
 
-http://www.dartlang.org/docs/tutorials/
-http://www.dartlang.org/articles/web-ui/
-http://www.dartlang.org/articles/web-ui/spec.html
-http://www.dartlang.org/articles/web-ui/summary.html
-http://www.dartlang.org/docs/cookbook/#web-ui
-http://observables-articles.dart-lang.appspot.com/web-ui/observables/
+https://pub.dartlang.org/packages/monomer
+https://pub.dartlang.org/packages/bwu_datagrid
+https://github.com/szgabsz91/html-components
+https://github.com/ovangle/polymer_ajax_form
+https://pub.dartlang.org/packages/pixelate
+https://pub.dartlang.org/packages/graph_paper
+https://pub.dartlang.org/packages/chessboard
 
-https://groups.google.com/a/dartlang.org/forum/?fromgroups#!topic/web-ui/-DTOmVPp_wk
-https://groups.google.com/a/dartlang.org/forum/?fromgroups#!topic/web-ui/ph-yFpzeTU4
-https://groups.google.com/a/dartlang.org/forum/?fromgroups#!topic/web-ui/91K9uvm6dOc
-https://groups.google.com/a/dartlang.org/forum/?fromgroups#!topic/web-ui/vQz2CKguGoY
-https://groups.google.com/a/dartlang.org/forum/?fromgroups#!topic/web-ui/L-HjsyW4q88
+https://pub.dartlang.org/packages/app_router
 
-https://plus.google.com/115816334172157652403/posts/dt2H4F2JmtZ
 
--------------------
 
-Web UI and its data binding works best when you think about models populated with data. The flow can be something like:
 
-1) Create models, mark them with @observable
-2) Bind those models to your <template> elements and other custom elements.
-3) Load data with HttpRequest
-4) Populate models and collections with the data
-5) TA-DA! The view is automatically updated.
 
-Have you seen @observable? Have you seen the Web UI tutorials? http://www.dartlang.org/docs/tutorials/
 
-Thanks,
-Seth Ladd
 
--------------------
 
-Dart's DOM of the future is here today!
 
-* Futures instead of callbacks
-* Streams instead of events
-* No more vendor prefixes
-* Web components
-* Live data binding
-* Real collections
 
-Learn more from Dart engineers +Emily Fortuna and +Sigmund Cherem in this talk from Google I/O.
+
