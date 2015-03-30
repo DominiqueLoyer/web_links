@@ -2,4 +2,4 @@
 
 ## 0.0.3
 
-+ component (polymer element) style 
++ component (polymer element) CSS style 
